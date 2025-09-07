@@ -1,0 +1,166 @@
+.bento-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.card {
+    border-radius: 12px;
+    padding: 0.9rem;
+    overflow: hidden
+}
+
+.card h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.card-header {
+    background-color: var(--purple-500);
+    text-align: center;
+    color: var(--white);
+    padding: 2rem;
+}
+
+.card-header h1 {
+    font-size: 2.2rem;
+    line-height: 1;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.card-header h1 span {
+    color: var(--yellow-500);
+}
+
+.stars-img {
+    max-width: 12rem;
+    margin: 0 auto 0.5rem;
+}
+
+.card-platforms {
+    background-color: var(--white);
+}
+
+.card-platforms img {
+    margin-bottom: 1rem;
+    border-radius: 4px;
+}
+
+.card-schedule {
+    background-color: var(--yellow-500);
+    overflow: hidden;
+    padding-bottom: 0;
+    padding-right: 2rem;
+}
+
+.card-schedule img {
+    width: 180px;
+    transform: translateY(10px);
+}
+
+.card-timing {
+    background-color: var(--purple-100);
+    text-align: center;
+}
+
+.card-timing h2 {
+    margin-bottom: 1rem;
+}
+
+.card-timing img {
+    margin-bottom: 1rem;
+}
+
+.card-timing p {
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1rem;
+    padding: 0 25px;
+    margin-bottom: 0.5rem;
+}
+
+.card-followers {
+    background-color: var(--purple-500);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem
+}
+
+.card-followers img {
+    width: 70%;
+}
+
+.card-followers h2 {
+    color: var(--white);
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 0 40px;
+}
+
+.card-growth {
+    background-color: var(--white);
+    text-align: left;
+    padding: 20px;
+}
+
+.card-growth h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-growth p {
+    margin-bottom: 0.8rem;
+}
+
+.card-growth img {
+    width: 65%;
+}
+
+.card-create {
+    background-color: var(--yellow-100);
+    padding: 30px;
+}
+.card-create h2 {
+    font-size: 1.6rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.4rem;
+}
+
+.card-create  img {
+    width: 70%;
+}
+
+.card-create span {
+    color: var(--purple-500);
+    font-style: italic;
+}
+
+.card-ai {
+    background-color: var(--yellow-500);
+    padding: 20px;
+}
+
+.card-ai h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.card-ai img {
+    width: 70%;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.attribution a {
+    color: var(--color-link-footer);
+    text-decoration: underline;
+}
